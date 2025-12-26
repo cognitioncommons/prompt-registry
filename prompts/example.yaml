@@ -1,0 +1,14 @@
+name: example
+version: 1
+description: An example prompt template
+variables:
+  topic:
+    required: true
+    description: The topic to explain
+  audience:
+    required: false
+    default: general audience
+    description: Target audience for the explanation
+template: 'Explain {{ topic }} in simple terms for a {{ audience }}.
+
+  '

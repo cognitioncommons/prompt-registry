@@ -1,0 +1,2 @@
+[console_scripts]
+prompt-registry = prompt_registry.cli:main
